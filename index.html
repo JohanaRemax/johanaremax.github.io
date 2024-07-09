@@ -8,9 +8,11 @@
   <body>
 	  <a href="https://allisonandcoutant.rmxhawaii.com/"></a>
 	<script>
-	    window.location.replace(
-	      "https://allisonandcoutant.rmxhawaii.com/"
-	    )
+		if (window.location.href.startsWith("http")) {
+		    window.location.replace(
+		      "https://allisonandcoutant.rmxhawaii.com/"
+		    )
+		}
   	</script>
   </body>
 </html>
